@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
   - Don't forget to save the Access Key ID and Secret Access Key after you create the IAM user.
 2. Configure your credentials in your command line tool (On Mac it's Terminal) using “aws configure”
   - You can check your ~/.aws/credentials and ~/.aws/config files and make sure they are correctly setup
+  - You can type aws sts get-caller-identity , it should output the correct IAM info on the terminal.
 3. Authenticate to your IAM user on your command line. Below are commands to type on your terminal:
   - `export AWS_REGION=ap-southeast-2` (or other regions you want to authenticate into)
   - `export AWS_DEFAULT_REGION=ap-southeast-2` (need to match with the one above)
