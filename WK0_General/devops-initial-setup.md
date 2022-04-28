@@ -13,12 +13,12 @@ Get notified when your bill goes out of control:
 https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html
 
 ## Install AWS CLI
-https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html 
 
 ## AWS Local Authentication (CLI access)
-1. Create an IAM User
+1. Create an IAM User on AWS Console
   - Login to your AWS Console using your root credentials
-  - Follow [this](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console) and create an IAM user for yourself. Give yourself **AdministratorAccess**
+  - Follow [this](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console) and create an IAM user for yourself. Give yourself **AdministratorAccess** permission after you created your own IAM.
   - Don't forget to save the Access Key ID and Secret Access Key after you create the IAM user.
 2. Configure your credentials in your command line tool (On Mac it's Terminal) using “aws configure”
   - You can check your ~/.aws/credentials and ~/.aws/config files and make sure they are correctly setup
