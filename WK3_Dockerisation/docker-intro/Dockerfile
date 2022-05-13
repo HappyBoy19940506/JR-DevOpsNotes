@@ -1,4 +1,4 @@
-FROM python:local
+FROM python:local_change
 
 # set a directory for the app
 WORKDIR /usr/src/app
