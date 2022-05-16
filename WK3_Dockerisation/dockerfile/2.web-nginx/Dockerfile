@@ -2,7 +2,8 @@ FROM nginx
 
 RUN echo 'construction building ..............'
 
-COPY ./index.html /usr/share/nginx/html
+WORKDIR /usr/share/nginx
+COPY . ./html
 
 RUN echo 'construction compelete..............'
 
