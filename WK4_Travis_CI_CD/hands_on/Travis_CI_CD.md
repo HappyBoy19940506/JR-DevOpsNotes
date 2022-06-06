@@ -165,7 +165,7 @@ Let us create a `.travis.yml` in the repo and add the following code:
 sudo: required 
 language: node_js
 node_js:
-    - "stable"
+    - "16"
     
 services: 
     - docker
