@@ -25,7 +25,7 @@ cd jenkins_home
            -v /var/run/docker.sock:/var/run/docker.sock \
            -p 80:8080 \
            -p 50000:50000 \
-           jenkins/jenkins
+           jenkins/jenkins or jenkinsci/blueocean
 ```
 
 > Note:
