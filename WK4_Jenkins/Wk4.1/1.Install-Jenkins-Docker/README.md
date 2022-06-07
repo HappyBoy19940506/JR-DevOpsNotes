@@ -18,15 +18,14 @@ cd jenkins_home
 ### 2. Start a Jenkins container
 
 ```bash
-docker run --name jenkins \
+ docker run --name jenkins \                                 
            -u root \
-           -d \
-           --platform linux/amd64 \
+           --rm \
            -v $(pwd):/var/jenkins_home \
            -v /var/run/docker.sock:/var/run/docker.sock \
            -p 80:8080 \
            -p 50000:50000 \
-           jenkinsci/blueocean
+           jenkins/jenkins
 ```
 
 > Note:
